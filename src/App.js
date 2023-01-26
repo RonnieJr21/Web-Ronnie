@@ -8,7 +8,7 @@ import ExpenseTracker from "./Components/ExpenseTracker/ExpenseTracker";
 import Projects from "./Components/pages/Projects/Projects";
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={"https://ronniejr21.github.io/Web-Ronnie/"}>
         <Routes>
             <Route path={'/'} element={<LandingPage/>}/>
             <Route path={'/about-me'} element={<AboutMe/>}/>
