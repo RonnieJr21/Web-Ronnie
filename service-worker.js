@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Web-Ronnie/precache-manifest.0ecb1c9486d174dbe6b06b29ba638386.js"
+  "/Web-Ronnie/precache-manifest.440fb0ab155b7edc321c8cbbe6329e93.js"
 );
 
 workbox.clientsClaim();
