@@ -1,0 +1,52 @@
+.navbar{
+    display: block;
+    justify-content: center;
+    font-family: "Trebuchet MS" ;
+    margin-top: 0;
+    background-color: #30302d;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+
+    font-size: x-large;
+}
+.Home{
+    left: auto;
+    position: relative;
+    color: white;
+    top: 40px;
+}
+.Projects{
+
+    left: auto;
+    position: relative;
+    color: white;
+    padding-left: 5%;
+    top: 40px;
+
+
+}
+
+.AboutMe{
+    position: relative;
+    color: white;
+    padding-left: 5%;
+    top: 40px;
+
+}
+
+.Skills{
+    position: relative;
+    color: white;
+    padding-left: 5%;
+    top: 40px;
+
+}
+
+.contact{
+    position: relative;
+    color: white;
+    padding-left: 5%;
+    top: 40px;
+
+}

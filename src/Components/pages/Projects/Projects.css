@@ -1,0 +1,13 @@
+
+.projects{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-image: linear-gradient(to bottom, black, dimgrey);
+    height: 1000px;
+    width: 100%;
+}
+.expense-tracker-link{
+    height: 40px;
+    width: 100px;
+}

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from "react";
+import'./App.css'
 import './App.css';
-
+import LandingPage from "./Components/LandingPage/LandingPage";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import AboutMe from "./Components/pages/AboutMe/AboutMe";
+import ExpenseTracker from "./Components/ExpenseTracker/ExpenseTracker";
+import Projects from "./Components/pages/Projects/Projects";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={'https://ronniejr21.github.io/Web-Ronnie/'}>
+        <Routes>
+            <Route path={'/'} element={<LandingPage/>}/>
+            <Route path={'/about-me'} element={<AboutMe/>}/>
+            <Route path={'/projects'} element={<Projects/>}/>
+            <Route path={'/projects/expense-tracker'} element={<ExpenseTracker/>}/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 
