@@ -1,4 +1,6 @@
 .expense-item {
+    border-style: inset;
+    border-color: white;
     color: black;
     display: flex;
     justify-content: center;
@@ -7,7 +9,7 @@
     padding: 0.5rem;
     margin: 1rem 0;
     border-radius: 12px;
-background-image: linear-gradient(to right, dimgrey, seagreen)}
+}
 
 .expense-item__description {
     display: flex;
@@ -23,11 +25,10 @@ background-image: linear-gradient(to right, dimgrey, seagreen)}
     font-size: medium;
     flex: 1;
     margin: 0 1rem;
-    color: black;
+    color: #519872;
 }
 
 .expense-item__price {
-    background-image: linear-gradient(to right, white, gray );
     font-size: small;
     font-weight: bold;
     color: crimson;

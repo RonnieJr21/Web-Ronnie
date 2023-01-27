@@ -1,36 +1,32 @@
-import React from "react";
+import React, {useState} from "react";
 import ExpenseItem from "./Components/ExpenseItem/ExpenseItem";
 import './ExpenseTracker.css'
 import Expenses from "./Components/Expenses/Expenses";
 import Card from "../DesignComponents/Card/Card";
-
-const ExpenseTracker = () =>{
-    const expenses = [
+import ExpenseForm from "./Components/ExpenseForm/ExpenseForm";
+import NewExpense from "./Components/NewExpense/NewExpense";
+const dummyExpenses = [
     {id: '1',
-        title: 'vape juice',
-        amount: 17.34 ,
-        date: new Date()
-    },
-    {id: '2',
-        title:'car payment' ,
-        amount: 500.00 ,
-        date: new Date()    },
-    {id: '3' ,
-        title:'gaming' ,
-        amount: 30.00 ,
-        date: new Date()    },
-    {id:'4' ,
-        title:'food' ,
-        amount: 127.00 ,
-        date: new Date()    },
-        {id: '5' ,
-            title:'gamingg' ,
-            amount: 30.00 ,
-            date: new Date()    }
-    ]
+        title: 'Car Note',
+        amount: 458.34 ,
+        date: new Date(2021,1,21)
+    }
+]
+const ExpenseTracker = () =>{
+    const [expenses, newExpenses] = useState(dummyExpenses);
+    const addExpense = (expenseData) =>{
+        const newExpense = {
+            ...expenseData
+        }
+        console.log(newExpense)
+        newExpenses((prevExpenses) =>{
+        return[...prevExpenses, newExpense]})
+    }
+
 
 return(
     <div className={'expense-tracker'}>
+        <NewExpense onGetNewExpense={addExpense}/>
         <Expenses expenses={expenses}/>
     </div>
 

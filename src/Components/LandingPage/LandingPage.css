@@ -1,8 +1,11 @@
 body{
     margin: 0;
-    background-image: linear-gradient(to bottom, black, lightgrey);
     text-align: center;
 }
+.App{
+    background-image: linear-gradient(to bottom, #382933,#3B5249 );
+}
+
 
 .filler{
     height: 120px;

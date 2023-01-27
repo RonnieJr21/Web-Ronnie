@@ -2,8 +2,10 @@ import React from "react";
 import './ExpenseItem.css'
 import ExpenseDate from "../ExpenseDate/ExpenseDate";
 import Card from "../../../DesignComponents/Card/Card";
+import {useState} from "react";
 
 const ExpenseItem = (props) =>{
+    console.log(props.date)
 
 
     return(

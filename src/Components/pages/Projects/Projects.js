@@ -7,10 +7,10 @@ const Projects = () =>{
         window.location.replace('http://localhost:3000/projects/expense-tracker')
     }
     return(
-        <Card className={'projects'}>
+        <div className={'projects'}>
             <button className={'expense-tracker-link'} onClick={ExpenseTrackerWebpage}
-            >Expense Tracker</button>
-        </Card>
+            >💵 Expense Tracker</button>
+        </div>
     )
 }
 export default Projects
