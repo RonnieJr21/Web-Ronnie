@@ -45,6 +45,6 @@
 a{
     color: #1e1b1e;
 }
-a:hover{
+.navbar a:hover{
     color: #519872;
 }

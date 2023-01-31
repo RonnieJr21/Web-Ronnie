@@ -12,7 +12,7 @@ const MyNavbar = () => {
 
             <span><a className="Skills" href="./Skills/Skills.html"> Skills </a></span>
 
-            <span><a className="contact" href="./Contact-Me/Contact-Me.html">Contact Me</a></span>
+            <span><a className="contact" href={process.env.PUBLIC_URL + "/contact-me"}>Contact Me</a></span>
 
         </div>
     );
