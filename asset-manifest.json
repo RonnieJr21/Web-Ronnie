@@ -1,9 +1,9 @@
 {
   "main.css": "/Web-Ronnie/static/css/main.f706465b.chunk.css",
-  "main.js": "/Web-Ronnie/static/js/main.8de1d424.chunk.js",
-  "main.js.map": "/Web-Ronnie/static/js/main.8de1d424.chunk.js.map",
-  "static/js/1.0f8a000f.chunk.js": "/Web-Ronnie/static/js/1.0f8a000f.chunk.js",
-  "static/js/1.0f8a000f.chunk.js.map": "/Web-Ronnie/static/js/1.0f8a000f.chunk.js.map",
+  "main.js": "/Web-Ronnie/static/js/main.d7b2f606.chunk.js",
+  "main.js.map": "/Web-Ronnie/static/js/main.d7b2f606.chunk.js.map",
+  "static/js/1.5ccb8532.chunk.js": "/Web-Ronnie/static/js/1.5ccb8532.chunk.js",
+  "static/js/1.5ccb8532.chunk.js.map": "/Web-Ronnie/static/js/1.5ccb8532.chunk.js.map",
   "runtime~main.js": "/Web-Ronnie/static/js/runtime~main.d0a63bcb.js",
   "runtime~main.js.map": "/Web-Ronnie/static/js/runtime~main.d0a63bcb.js.map",
   "static/media/SamuraiG.JPG": "/Web-Ronnie/static/media/SamuraiG.f2e33311.JPG",
@@ -11,6 +11,6 @@
   "static/media/astronaut-on-moon.png": "/Web-Ronnie/static/media/astronaut-on-moon.79eb960d.png",
   "static/css/main.f706465b.chunk.css.map": "/Web-Ronnie/static/css/main.f706465b.chunk.css.map",
   "index.html": "/Web-Ronnie/index.html",
-  "precache-manifest.ba9cc4737b766e4e9852eb26405243e2.js": "/Web-Ronnie/precache-manifest.ba9cc4737b766e4e9852eb26405243e2.js",
+  "precache-manifest.cb03247dc9e60481520e73742b6f67ae.js": "/Web-Ronnie/precache-manifest.cb03247dc9e60481520e73742b6f67ae.js",
   "service-worker.js": "/Web-Ronnie/service-worker.js"
 }
