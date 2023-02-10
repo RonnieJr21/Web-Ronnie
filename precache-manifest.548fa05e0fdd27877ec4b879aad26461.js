@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a892ce9d8dbac9fb99d4",
+    "revision": "a5f05396a584c8d5262b",
     "url": "/Web-Ronnie/static/css/main.f706465b.chunk.css"
   },
   {
-    "revision": "a892ce9d8dbac9fb99d4",
-    "url": "/Web-Ronnie/static/js/main.a892ce9d.chunk.js"
+    "revision": "a5f05396a584c8d5262b",
+    "url": "/Web-Ronnie/static/js/main.a5f05396.chunk.js"
   },
   {
     "revision": "5be0a9f4e4b3f116dd74",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Web-Ronnie/static/media/astronaut-on-moon.79eb960d.png"
   },
   {
-    "revision": "777faa2369209fa69670f6fbd1e02954",
+    "revision": "bd69a4e1e8ae90dffff6505b895dedf6",
     "url": "/Web-Ronnie/index.html"
   }
 ];
