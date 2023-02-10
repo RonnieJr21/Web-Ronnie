@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../DesignComponents/Card/Card";
 import './Projects.css'
-import Forum from "../../Forum/Forum";
+import Forum from "./Forum/Forum";
 
 const Projects = () =>{
     const ExpenseTrackerWebpage = () =>{
