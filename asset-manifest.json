@@ -1,15 +1,16 @@
 {
-  "main.css": "/Web-Ronnie/static/css/main.d1d76f5a.chunk.css",
-  "main.js": "/Web-Ronnie/static/js/main.4b3ed198.chunk.js",
-  "main.js.map": "/Web-Ronnie/static/js/main.4b3ed198.chunk.js.map",
-  "static/js/1.1ae9a111.chunk.js": "/Web-Ronnie/static/js/1.1ae9a111.chunk.js",
-  "static/js/1.1ae9a111.chunk.js.map": "/Web-Ronnie/static/js/1.1ae9a111.chunk.js.map",
+  "main.css": "/Web-Ronnie/static/css/main.f706465b.chunk.css",
+  "main.js": "/Web-Ronnie/static/js/main.a892ce9d.chunk.js",
+  "main.js.map": "/Web-Ronnie/static/js/main.a892ce9d.chunk.js.map",
+  "static/js/1.5be0a9f4.chunk.js": "/Web-Ronnie/static/js/1.5be0a9f4.chunk.js",
+  "static/js/1.5be0a9f4.chunk.js.map": "/Web-Ronnie/static/js/1.5be0a9f4.chunk.js.map",
   "runtime~main.js": "/Web-Ronnie/static/js/runtime~main.d0a63bcb.js",
   "runtime~main.js.map": "/Web-Ronnie/static/js/runtime~main.d0a63bcb.js.map",
+  "static/media/SamuraiG.JPG": "/Web-Ronnie/static/media/SamuraiG.f2e33311.JPG",
   "static/media/cartoonSpaceship.png": "/Web-Ronnie/static/media/cartoonSpaceship.a1b58e9c.png",
   "static/media/astronaut-on-moon.png": "/Web-Ronnie/static/media/astronaut-on-moon.79eb960d.png",
-  "static/css/main.d1d76f5a.chunk.css.map": "/Web-Ronnie/static/css/main.d1d76f5a.chunk.css.map",
+  "static/css/main.f706465b.chunk.css.map": "/Web-Ronnie/static/css/main.f706465b.chunk.css.map",
   "index.html": "/Web-Ronnie/index.html",
-  "precache-manifest.942afd7a37aa1dd4b4a2e44ad9dfcd45.js": "/Web-Ronnie/precache-manifest.942afd7a37aa1dd4b4a2e44ad9dfcd45.js",
+  "precache-manifest.48c3f9a574675ce853246dbfee6437b4.js": "/Web-Ronnie/precache-manifest.48c3f9a574675ce853246dbfee6437b4.js",
   "service-worker.js": "/Web-Ronnie/service-worker.js"
 }
