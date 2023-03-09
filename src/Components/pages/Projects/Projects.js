@@ -5,16 +5,16 @@ import Forum from "./Forum/Forum";
 
 const Projects = () =>{
     const ExpenseTrackerWebpage = () =>{
-        window.location.replace('http://localhost:3000/projects/expense-tracker')
+        window.location.href=process.env.PUBLIC_URL+'/expense-tracker'
     }
     const ForumWebpage = () =>{
-        window.location.replace(process.env.PUBLIC_URL+'/projects/Forum')
+        window.location.href=process.env.PUBLIC_URL+'/Forum'
 
     }
     return(
         <div className={'projects'}>
             <div>
-                <button className={'expense-tracker-link'} onClick={ExpenseTrackerWebpage}
+                <button  className={'expense-tracker-link'} onClick={ExpenseTrackerWebpage}
                 >💵 Expense Tracker</button>
             </div>
 

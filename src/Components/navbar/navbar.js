@@ -1,18 +1,19 @@
 import React from "react";
 import './navbar.css'
+import {Link} from "react-router-dom";
 
 const MyNavbar = () => {
     return(
         <div className="navbar">
-            <span><a className="Home" href={process.env.PUBLIC_URL + "/"} > Home Page </a></span>
+            <span><Link className="Home" to={"/"} > Home Page </Link></span>
 
-            <span><a className="Projects" href={process.env.PUBLIC_URL + "/projects"} > Projects </a></span>
+            <span><Link className={"Projects"} to={'/projects'}>Projects</Link></span>
 
-            <span><a className="AboutMe" href={process.env.PUBLIC_URL + "/about-me"} > About me </a></span>
+            <span><Link className="AboutMe" to={"/about-me"} > About me </Link></span>
 
-            <span><a className="Skills" href="./Skills/Skills.html"> Skills </a></span>
+            <span><Link className="Skills" to="./Skills/Skills.html"> Skills </Link></span>
 
-            <span><a className="contact" href={process.env.PUBLIC_URL + "/contact-me"}>Contact Me</a></span>
+            <span><Link className="contact" to={"/contact-me"}>Contact Me</Link></span>
 
         </div>
     );
